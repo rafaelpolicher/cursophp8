@@ -123,6 +123,55 @@ se(condiçao){<br>
     codigo<br>
 } senao{<br>
     codigo<br>
-}"
-?>
+}<br>";
 
+echo"exercicios:<br>";
+$produtos = ['arroz', 'batata', 'laranja'];
+foreach($produtos as $produto){
+    echo "<ul><br>";
+    echo "<li>$produto</li>";
+    echo "</ul><br>";
+}
+echo "-----------";
+
+array_reverse($produtos);
+array_push($produtos, 'maça', 'pera');
+?>
+<?php foreach($produtos as $produto):?>
+    <ul>
+        <li><?=$produto?></li>
+    </ul>
+<?php endforeach;?><br>
+---------------------<br>
+<?php sort($produtos)?>
+<?php foreach($produtos as $produto):?>
+    <ul>
+        <li><?=$produto?></li>
+    </ul>
+<?php endforeach;?><br>
+---------------------<br>
+<?php $nome = 'joao'?>
+<?php if($nome = 'joao'):?>
+    o nome é joao
+<?php endif;?><br>
+---------------------<br>
+<?php $lojas = [
+    'lisboa' => 'lisboa@gmail.com',
+    'porto'  => 'porto@gmail.com',
+];
+$cidade = 'lisboa'?>
+
+<?php if(key_exists($cidade, $lojas)):?>
+    <?= $cidade?><br>
+    <?= $lojas[$cidade]?>
+<?php else:?>
+    <p>nao existe loja nessa cidade</p>
+<?php endif;?><br>
+---------------------<br>
+<?php $erro = ''?>
+
+<?php if(empty($erro)):?>
+    <p>nao ha erros</p><br>
+<?php else:?>
+    <p><?= $erro?></p>
+<?php endif;?>
