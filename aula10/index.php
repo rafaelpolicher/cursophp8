@@ -243,4 +243,19 @@ while(var <= 10){ <br>
 enquanto var for <= 10<br>
 faça<br>
 var +1";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>DO WHILE</h1><br>
+var = 1<br>
+do{<br>
+    var<br>
+    var ++<br>
+} while(var <= 10)<br><br>
+
+faça<br>
+...<br>
+enquanto var for <= 10"
 ?>
