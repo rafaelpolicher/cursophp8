@@ -69,6 +69,7 @@ echo "<--------------------->";
 echo "<br>";
 
 
+
 echo "para converteu uma string em numero coloca-se o sinal de + antes da string"
 ?>
 
