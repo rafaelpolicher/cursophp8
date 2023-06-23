@@ -115,5 +115,14 @@ echo "<h1>operadores logicos</h1><br>
 echo "<br>";
 echo "<--------------------->";
 echo "<br>";
+
+echo"<h1>condicional if, elseis, else</h1><br>
+se(condiçao){<br>
+    codigo<br>
+} senao se(condiçao){<br>
+    codigo<br>
+} senao{<br>
+    codigo<br>
+}"
 ?>
 
