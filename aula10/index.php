@@ -175,3 +175,59 @@ $cidade = 'lisboa'?>
 <?php else:?>
     <p><?= $erro?></p>
 <?php endif;?>
+
+<?php 
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo"<h1>Condicional switch case</h1><br>
+switch = declarar<br>
+case = se sim <br>
+default = senao<br>
+break = sair do swtch<br>
+é possivel usar dois case, para ser um OU outro<br>
+case<br>
+case<br>
+codigo<br>
+break<br><br>
+var = 1<br>
+switch (var){ <br>
+    case '0' <br>
+        (codigo) <br>
+    break; <br><br>
+    
+    case '1' <br>
+        (codigo) <br>
+    break; <br><br>
+
+    default <br>
+    (codigo)<br>
+    break<br>
+";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo"<h1>Condicional match (PHP8)</h1><br>
+permite um if else em estrutura de array<br>
+var = 5 <br>
+res = match(var){<br>
+    '1' => 'codigo'<br>
+    '2' '3' => 'codigo<br>
+    default => nenhum dos anteriores<br><br>
+    
+res(match){<br>
+    var > 100 => 'maior que 100'<br>
+    var < 100 => 'menor que 100'<br>
+    default => 'igual a 100'<br>";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>Operador ternario</h1><br>
+idade=15<br>
+eu sou . (idade => 18 ? 'maior de idade' : 'menor de idade)"
+?>
