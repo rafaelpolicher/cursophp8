@@ -1,4 +1,5 @@
-<?php 
+<?php
+echo "<h5>https://www.php.net/manual/pt_BR/index.php</h5><br>" ;
 echo "declarar contantes" . PHP_EOL;
 define('VALOR', 10); //letras maiusculas
 echo VALOR;
@@ -68,7 +69,14 @@ echo "<br>";
 echo "<--------------------->";
 echo "<br>";
 
-
+echo "<h1>Funçoes acossiadas a arrays</h1><br>
+verificar se é array: is_array(ARRAY)<br>
+veficar quantos elementos tem na array: count(ARRAY)<br>
+adicionar ao final: array_push(ARRAY, 'itemnofinal')<br>
+adicionar no inicio: array_unshift(ARRAY, 'itemnoinicio')<br>
+excluir do final: array_pop(ARRAY)<br>
+excluir do inicio: array_shift(ARRAY, )<br>
+excluir específico: unset(ARRAY[3])";
 
 echo "para converteu uma string em numero coloca-se o sinal de + antes da string"
 ?>
