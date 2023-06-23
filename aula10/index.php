@@ -229,5 +229,18 @@ echo "<br>";
 
 echo "<h1>Operador ternario</h1><br>
 idade=15<br>
-eu sou . (idade => 18 ? 'maior de idade' : 'menor de idade)"
+eu sou . (idade => 18 ? 'maior de idade' : 'menor de idade)";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>WHILE</h1><br>
+var = 1<br>
+while(var <= 10){ <br>
+    var<br>
+    var++<br><br>
+enquanto var for <= 10<br>
+faça<br>
+var +1";
 ?>
