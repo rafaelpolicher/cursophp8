@@ -95,11 +95,25 @@ resultado booleano<br>
 <   menor<br>
 >=  maior ou igual<br>
 <=  menor ou igual<br>
-<=> primeiro é maior que o segundo?(sim =1/ igual = 0/ nao =-1<br>";
+<=> primeiro é maior que o segundo?(sim =1/ igual = 0/ nao =-1<br>
+++  auto incremento +1<br>
+--  auto decremento -1";
 
 echo "<h3>condicionais ternario if else</h3><br>
 ? se sim<br>
-: senao<br>
-"
+: senao<br>";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>operadores logicos</h1><br>
+&& 'e' true se todas forem verdadeiras<br>
+|| 'ou' true se uma for verdadeira<br>
+!  'nao' ";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
 ?>
 
