@@ -171,7 +171,7 @@ $cidade = 'lisboa'?>
 <?php $erro = ''?>
 
 <?php if(empty($erro)):?>
-    <p>nao ha erros</p><br>
+    <p>sucesso</p><br>
 <?php else:?>
     <p><?= $erro?></p>
 <?php endif;?>
