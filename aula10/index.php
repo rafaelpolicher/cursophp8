@@ -78,6 +78,28 @@ excluir do final: array_pop(ARRAY)<br>
 excluir do inicio: array_shift(ARRAY, )<br>
 excluir específico: unset(ARRAY[3])";
 
-echo "para converteu uma string em numero coloca-se o sinal de + antes da string"
+echo "para converteu uma string em numero coloca-se o sinal de + antes da string";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>Comparaçao</h1><br>
+resultado booleano<br>
+==  igual<br>
+=== identico<br>
+!=  diferente<br>
+!== difrente (valor e tipo)<br>
+<>  diferente<br>
+>   maior<br>
+<   menor<br>
+>=  maior ou igual<br>
+<=  menor ou igual<br>
+<=> primeiro é maior que o segundo?(sim =1/ igual = 0/ nao =-1<br>";
+
+echo "<h3>condicionais ternario if else</h3><br>
+? se sim<br>
+: senao<br>
+"
 ?>
 
