@@ -257,5 +257,30 @@ do{<br>
 
 faça<br>
 ...<br>
-enquanto var for <= 10"
+enquanto var for <= 10";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>FOR</h1><br>
+for(VAR = 1; VAR <= 10; VAR++){<br>
+    VAR<br>
+}<br><br>
+
+para(valor da variavel; ate; incremento){<br>
+    faça<br>
+}<br>";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>FOREACH</h1><br>
+NOMES = ['jose', 'maria', 'joao']<br>
+foreach(NOMES as NOME){<br>
+    NOME<br><br>
+    
+por cada(array em item) faça<br>
+por cada(array em chave => valor) faça"
 ?>
