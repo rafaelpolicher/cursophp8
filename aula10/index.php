@@ -282,5 +282,18 @@ foreach(NOMES as NOME){<br>
     NOME<br><br>
     
 por cada(array em item) faça<br>
-por cada(array em chave => valor) faça"
+por cada(array em chave => valor) faça<br>";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "break e continue<br>
+break interrompe o ciclo<br>
+continue ignora o item<br>
+NOMES = ['jose', 'maria', 'joao']<br>
+foreach(NOMES as NOME){<br>
+    NOME<br>
+    if(nome == 'maria'){<br>
+        break}<br>"
 ?>
