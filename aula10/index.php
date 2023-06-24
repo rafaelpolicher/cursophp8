@@ -295,5 +295,49 @@ NOMES = ['jose', 'maria', 'joao']<br>
 foreach(NOMES as NOME){<br>
     NOME<br>
     if(nome == 'maria'){<br>
-        break}<br>"
+        break<br>
+    }
+        <br>";
+
+        echo "<br>";
+        echo "<--------------------->";
+        echo "<br>";
+
+echo "<h5> exercicios repetiçoes</h5><br>"
 ?>
+<?php for($i=1; $i<=10; $i++):?>
+    <p><?=$i?>x5 = <?= $i*5 ?></p>
+    
+<?php endfor;?>
+
+<br>------------------------<br>
+
+<?php $res327 = [1,2,3,4,5,6,7,8,9,10]?>
+<?php foreach($res327 as $res):?>
+    <p><?= $res * 327?></p>
+<?php endforeach; ?>
+
+<br>------------------------<br>
+
+<?php $nomes = ["joao", 'jose', 'maria', 'rosa']?>
+<?php foreach($nomes as $nome):?>
+    <?php if($nome ==='maria') continue?>
+            <?= $nome ?> ,
+<?php endforeach;?>
+
+<br>------------------------<br>
+<style>
+    .red{
+        color: red;
+    }
+</style>
+<?php foreach($nomes as $nome):?>
+    <?php if($nome >= $nomes[1]):?>
+        <p class="red"><?= $nome ?></p>
+    <?php else:?>
+        <?= $nome ?>
+    <?php endif;?>
+<?php endforeach;?>
+
+<br>------------------------<br>
+
