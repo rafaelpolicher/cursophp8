@@ -373,4 +373,55 @@ echo "<h1>escopo de variaveis</h1><br>
 para usar uma funçao de escopo global dentro de uma funçao, usar 'global'<br>
 nome = 'joao'<br>
 function funcao(){global nome}";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>Include e require</h1><br>
+importaçao de codigo<br>
+include - mostra aviso se o arquivo nao existe e continua a execuçao do codigo<br>
+require - se o arquivo nao existe gera um fatal error<br><br>
+
+_once - carrega apenas uma vez<br>";
+
+echo "<br>";
+echo "<--------------------->";
+
+echo "<h1>sessoes</h1><br>
+mecanismos do php para manter informaçoes entre diferentes requests - sempre que um pedido é feito, a informçao é perdida<br>
+com sessoes podemos guardar dados temporariamente no servidor<br>
+por exemplo, em uma unica navegaçao, é possivel que o session guarde informaçoes na sessao até que usuario saia do site<br><br>
+devem ter o inicio da sessao<br>
+session_start()<br>
+deve ser usada'$'_SESSION['variavel'] para acessar a variavel guardada na sessao _SESSION['nome']='joao'<br>
+_SESSION contem um array com todas as variaveis que estao na sessao<br>
+<b>unset(variavel)</b> remove o valor de uma variavel<br>
+<b>session_unset</b> remove todas as variaveis<br>
+<b>session_destroy</b> remove a sessao<br>
+<br>
+-------------------------------------
+<br><br>
+
+<h1>cookies</h1><br>
+<b>_COOKIE</b><br>
+session_name('minha_sessao) <br>
+session_set_cookie_params(60*3) - a sessao durará 3 minutos (recomendavel usar até 30 minutos)<br>
+session_start() <br><br>
+cookies servem para guardar dados do lado do cliente, o uso mais comum é de guardar sessoes do utilizador(login)<br>
+setcookie(nome, valor, time() + expiraçao) - criar cookie<br>
+setcookie(nome, '', time() -1) - remover cookie<br><br>
+
+exemplo tema claro/escuro:<br>
+theme = !empty(_COOKIE['theme']) ? _COOKIE['theme'] : 'ligth'<br>
+criar uma tag 'a' com href light.php e outra com dark.php
+(css usando classes .light e .dark)<br><br>
+
+criar um arquivo light.php/dark.php e criar um cookie<br>
+setcookie('theme', 'light', time() +3600)<br>
+header('Location: index.php') - redireciona para index.php<br>
+setcookie('theme', 'dark', time() +3600)<br><br>
+
+caso nao exista um cookie definido o tema sera light, caso exista um cookie chamado theme, o tema sera dark
+"
 ?>
