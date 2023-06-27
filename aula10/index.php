@@ -341,4 +341,25 @@ echo "<h5> exercicios repetiçoes</h5><br>"
 
 <br>------------------------<br>
 
+<?php 
+echo "<h1>funções</h1><br>
+function nome_da_funçao(parametros){codigo};<br>
+nome_da_funçao()<br>
+case INSENSITIVES<br><br>
+return...
+usadas para devolver um valor<br>
+retornar é diferente de apresentar<br>
+podemos atribuir o valor de retorno a uma variavel<br>
+var = funcao()<br>
+";
 
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h2>Parametros</h2><br>
+parametros: variaveis disponiveis para ser usadas na funçao<br>
+argumentos: sao os valores que passamos dentro dessa funçao<br>
+function adicionar(a,b){return a+b}<br>
+echo adicionar(100,50)<br>"
+?>
