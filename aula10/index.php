@@ -387,6 +387,7 @@ _once - carrega apenas uma vez<br>";
 
 echo "<br>";
 echo "<--------------------->";
+echo "<br>";
 
 echo "<h1>sessoes</h1><br>
 mecanismos do php para manter informaçoes entre diferentes requests - sempre que um pedido é feito, a informçao é perdida<br>
