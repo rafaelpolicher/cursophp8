@@ -361,5 +361,16 @@ echo "<h2>Parametros</h2><br>
 parametros: variaveis disponiveis para ser usadas na funçao<br>
 argumentos: sao os valores que passamos dentro dessa funçao<br>
 function adicionar(a,b){return a+b}<br>
-echo adicionar(100,50)<br>"
+echo adicionar(100,50)<br><br>
+o php vai tentar determinar o tipo de dado dos parametros e do retorno, porem é possivel determinar o tipo<br>
+function adicionar(a,b): int";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>escopo de variaveis</h1><br>
+para usar uma funçao de escopo global dentro de uma funçao, usar 'global'<br>
+nome = 'joao'<br>
+function funcao(){global nome}";
 ?>
