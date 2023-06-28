@@ -432,5 +432,27 @@ echo "<br>";
 echo "<h1>FILESYSTEM</h1><br>
 php tem um conjunto de funçoes para a manipulaçao de pastas e arquivos no servidor: criar e remover/ efetuar leitura e escrita/ obter informaçoes...<br>
 . pasta atual<br>
-.. pasta anterior"
+.. pasta anterior";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>Constantes magicas</h1><br>
+sao 9, sao definidas como cinstantes magicas por que seu valor é definido dependendo do local onde estao sendo usadas<br><br>
+
+__LINE__ - indica a linha do codigo<br><br>
+
+__FILE__ - o caminho completo do arquivo<br>
+
+__DIR___ - a pasta a qual pertence o arquivo<br>
+
+__FUNCTION__ - nome da funçao onde o codigo esta sendo executado<br>
+__CLASS__ / __TRAIT__ / __METHOD__ / __NAMESPACE__<br>";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+
 ?>
