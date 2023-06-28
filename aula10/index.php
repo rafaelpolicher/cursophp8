@@ -454,5 +454,31 @@ echo "<br>";
 echo "<--------------------->";
 echo "<br>";
 
+echo "<h1>Super globais</h1><br>
+variaveis em forma de arrays ques estao sempre disponiveis, e que podemos manipilar atraves da superglobal GLOBALS<br><br>
+
+function apresentar(){ global nome }<br>
+ou<br>
+echo GLOBALS['nome'] <br><br>
+
+GLOBALS['nome'] = 'joao' - para alterar valor<br>
+
+<h5>SERVER</h5><br>
+_SERVER['PHP_SELF'] - nome do script em execuçao<br>
+_SERVER['SERVER_ADDR'] - ip do servidor<br>
+
+_SERVER['NAME'] - nome do servidor<br>
+
+entre outros <br>
+
+<h5>SERVER</h5><br>
+session_start()<br>
+_SESSION[''] = ''<br>
+
+<h5>COOKIES</h5><br>
+"
+
+
+
 
 ?>
