@@ -423,6 +423,14 @@ setcookie('theme', 'light', time() +3600)<br>
 header('Location: index.php') - redireciona para index.php<br>
 setcookie('theme', 'dark', time() +3600)<br><br>
 
-caso nao exista um cookie definido o tema sera light, caso exista um cookie chamado theme, o tema sera dark
-"
+caso nao exista um cookie definido o tema sera light, caso exista um cookie chamado theme, o tema sera dark";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>FILESYSTEM</h1><br>
+php tem um conjunto de funçoes para a manipulaçao de pastas e arquivos no servidor: criar e remover/ efetuar leitura e escrita/ obter informaçoes...<br>
+. pasta atual<br>
+.. pasta anterior"
 ?>
