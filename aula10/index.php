@@ -475,8 +475,23 @@ entre outros <br>
 session_start()<br>
 _SESSION[''] = ''<br>
 
-<h5>COOKIES</h5><br>
-"
+<br>------------------------<br>
+
+<h1>_GET</h1><br>
+vera endereços assim:<br>
+https://www.nomedosite.com/index.php?id=1Sprd=25<br>
+? - da inicio a uma query string que é o cinjunto de parametros que vamos poder captar dentro do nosso script<br>
+cada parametro esta definido por um nome e valor id=1<br><br>
+$ - permite separar parametros de uma querystring<br><br>
+<br>
+a super gloal get é um array onde sao automaticamente colocados os parametros de uma querystring<br>
+<br>
+se o get estiver vazio, quer dizer que nao existem parametros na query string<br><br>
+
+para captar um determinado valor da querystring, recoremos a chave do array associativo de GET<br>
+S_GET['id']<br>
+se a variavel nao existir gerara um erro<br>
+deve-se primeiro identificar se existe com if(iseet(S_GET['id']))"
 
 
 
