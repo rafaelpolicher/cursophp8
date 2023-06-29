@@ -515,7 +515,12 @@ Suser = ['username' => 'joao']<br><br>
 if(Susername == Suser['username']{login valido}<br><br>
 
 usar a funçao nativa do php<br>
-password_verify()";
+password_verify()<br><br>
+
+-------------------<br>
+
+<h1>GET x POST<h1><br>
+para enviar formulario sempre usar POST";
 
 
 
