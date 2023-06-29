@@ -491,7 +491,31 @@ se o get estiver vazio, quer dizer que nao existem parametros na query string<br
 para captar um determinado valor da querystring, recoremos a chave do array associativo de GET<br>
 S_GET['id']<br>
 se a variavel nao existir gerara um erro<br>
-deve-se primeiro identificar se existe com if(iseet(S_GET['id']))"
+deve-se primeiro identificar se existe com if(iseet(S_GET['id']))";
+
+echo "<br>";
+echo "<--------------------->";
+echo "<br>";
+
+echo "<h1>fomularios</h1><br>
+form action=submissao.php method=post<br>
+input type=text name=text_username<br>
+input type=submit<br><br>
+
+submissao.php<br>
+if(S_SERVER['REUEST_METHOD'] != 'post'{acesso invalido<br><br>
+    
+criar uma variavel e adicionar o conteudo inserido no imput<br>
+Susername = isset(S_POST['text_username'] ? S_POST['text_username'] : ''<br>
+se existir algo escrito no text username, ira postar no text_username<br><br>
+
+verificar se o login é valido<br>
+Suser = ['username' => 'joao']<br><br>
+
+if(Susername == Suser['username']{login valido}<br><br>
+
+usar a funçao nativa do php<br>
+password_verify()";
 
 
 
