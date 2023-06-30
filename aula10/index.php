@@ -519,10 +519,30 @@ password_verify()<br><br>
 
 -------------------<br>
 
-<h1>GET x POST<h1><br>
-para enviar formulario sempre usar POST";
+<h5>GET x POST</h5><br>
+para enviar formulario sempre usar POST<br><br>
 
+---------------------<br>
 
+<h5>Validaçao de fomularios</h5><br><br>
+niveis de validaçao<br>
+1 html<br>
+2 javascript, antes da submissao<br>
+3 servidor<br>
+boa pratica é ter os 3 niveis<br><br>
+form action=submissao.php method=post<br>
+input type=text name=text_username<br>
+input type=submit<br><br>
 
-
+<b>3 servidor</b><br>
+declarar array erros<br>
+se houver algum erro, adicionar o indice ao array e entao mostrar os erros<br><br> 
+Serror = []<br>
+if(empty(S_POST['text_texto])){ Serros[] = 'o campo é obrigatorio' <br>
+} else { if (strlen(S_POST['text_texto']) < 5 <br>
+    Serros['o campo deve ser maior que 5']<br><br>
+    
+if(!empty){ <br>
+foreach (Serros as Serro){ Serro } <br
+else { ... }";
 ?>
