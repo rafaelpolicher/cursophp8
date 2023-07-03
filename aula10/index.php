@@ -549,6 +549,7 @@ else { ... }<br><br>
 <b>2 cliente js</b><br>
 https://www.udemy.com/course/desenvolvimento-web-compacto-e-completo/learn/lecture/36050180#content <br><br>
 
+
 <b>validaçoes</b><br>
 simples: possivel tambem fazer a validaçao com is_numeric()/ is_string()/ empty()<br>
 complexa: usar strlen() / email valido: filter_var(Semail, FILTER_VALIDATE_EMAIL)/ url valida: filter_var(Surl, FILTER_VALIDATE_URL / 
