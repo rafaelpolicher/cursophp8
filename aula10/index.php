@@ -555,5 +555,15 @@ simples: possivel tambem fazer a validaçao com is_numeric()/ is_string()/ empty
 complexa: usar strlen() / email valido: filter_var(Semail, FILTER_VALIDATE_EMAIL)/ url valida: filter_var(Surl, FILTER_VALIDATE_URL / 
 <br><br>
 
-<h1>Funçoes relacionadas a erros</h1>";
+---------------------<br>
+
+<h1>Funçoes relacionadas a erros</h1><br>
+
+o php contem um conjunto de funçoes ára lidar com erros, e permite definir a regra de apresentaçao ou ocultaçao de erros<br>
+podemos tambem usar com registro de logs, que é guardar um historico de evento que vao acontecendo na aplicaçao, é possivel ver os erros e identificar quando eles ocorrem<br><br>
+
+error_reporting(E_WARNING) mostra o tipo de erro (olhar documentaçao)<br><br>
+
+error_log('aconteceu um erro') ficara no registro de logs<br>
+phpinfo() mostra o registro de logs";
 ?>
