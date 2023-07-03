@@ -565,5 +565,32 @@ podemos tambem usar com registro de logs, que é guardar um historico de evento 
 error_reporting(E_WARNING) mostra o tipo de erro (olhar documentaçao)<br><br>
 
 error_log('aconteceu um erro') ficara no registro de logs<br>
-phpinfo() mostra o registro de logs";
+phpinfo() mostra o registro de logs<br><br
+
+
+--------------------<br>
+
+<h1>Tratamento de erros</h1><br>
+
+devemos fazer com que nossa aplicaçao seja capaz de seguir um caminho alternativo caso ocorra um erro<br><br>
+exceçao<br>
+
+function adicionar(Sa, Sb){ <br>
+    if(!is_numeric(Sa) || !is_numeric(Sb)){ <br>
+        trhow new Exception('um dos valores nao é  numerico')<br>
+    }<br>
+    return Sa - Sb<br>
+}<br> gerará um fatal error<br><br>
+
+try catch<br>
+try { <br>
+    echo adicionar('joao', 10)<br>
+} catch (Exception Serro) {<br>
+    echo Serro->getMessage()<br>
+}<br>
+nao gerara um fatal error e o script sera apresentado<br><br>
+
+try { codigo que pretendemos executar }<br>
+catch { codigo sera executado caso tenha erro }<br>
+finally { sera executado com erro ou nao } <br>";
 ?>
