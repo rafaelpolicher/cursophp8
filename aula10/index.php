@@ -553,5 +553,7 @@ https://www.udemy.com/course/desenvolvimento-web-compacto-e-completo/learn/lectu
 <b>validaçoes</b><br>
 simples: possivel tambem fazer a validaçao com is_numeric()/ is_string()/ empty()<br>
 complexa: usar strlen() / email valido: filter_var(Semail, FILTER_VALIDATE_EMAIL)/ url valida: filter_var(Surl, FILTER_VALIDATE_URL / 
-";
+<br><br>
+
+<h1>Funçoes relacionadas a erros</h1>";
 ?>
