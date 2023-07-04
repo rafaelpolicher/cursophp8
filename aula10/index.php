@@ -503,7 +503,7 @@ input type=text name=text_username<br>
 input type=submit<br><br>
 
 submissao.php<br>
-if(S_SERVER['REUEST_METHOD'] != 'post'{acesso invalido<br><br>
+if(S_SERVER['REQUEST_METHOD'] != 'post'{acesso invalido<br><br>
     
 criar uma variavel e adicionar o conteudo inserido no imput<br>
 Susername = isset(S_POST['text_username'] ? S_POST['text_username'] : ''<br>
