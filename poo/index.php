@@ -36,7 +36,7 @@ os metodos e prorpiedades podem ter niveis de acesso distintos<br><br>
 
 PUBLIC acessado de qualuqer lado<br><br>
 
-PROTECTED acessado apenas dentro da classe (classes derivadas)<br><br>
+PROTECTED acessado apenas dentro da classe e de classes derivadas dela<br><br>
 
 PRIVATE so pode ser acessado dentro da classe"
 ?>
