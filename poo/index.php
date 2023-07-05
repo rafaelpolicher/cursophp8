@@ -29,5 +29,14 @@ prorpiedades sao variaveis da classe<br>
 metodos sao funçoes da classe
 
 <h2>objetos</h2><br>
-instancias de uma classe, qiando criada cada objeto vai conter as prorpiedades e metodos da classe, cada objeto tera vida propria<br><br>"
+instancias de uma classe, qiando criada cada objeto vai conter as prorpiedades e metodos da classe, cada objeto tera vida propria<br><br>
+
+<h2>acess modifiers</h2><br>
+os metodos e prorpiedades podem ter niveis de acesso distintos<br><br>
+
+PUBLIC acessado de qualuqer lado<br><br>
+
+PROTECTED acessado apenas dentro da classe (classes derivadas)<br><br>
+
+PRIVATE so pode ser acessado dentro da classe"
 ?>
