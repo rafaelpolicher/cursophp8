@@ -38,5 +38,18 @@ PUBLIC acessado de qualuqer lado<br><br>
 
 PROTECTED acessado apenas dentro da classe e de classes derivadas dela<br><br>
 
-PRIVATE so pode ser acessado dentro da classe"
+PRIVATE so pode ser acessado dentro da classe<br><br>
+
+<h2>Construtor</h2><br>
+metodo especial dentro da classe que vai ser executado sempre que um novo objeto é criado<br><br>
+
+class Mulher { <br>
+    public Snome; <br>
+}<br><br>
+
+function __construct(Sn){ <br>
+    Sthis->nome = Sn <br>
+} <br><br>
+
+Sn = new Mulher('ana')<br>"
 ?>
