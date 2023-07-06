@@ -51,5 +51,14 @@ function __construct(Sn){ <br>
     Sthis->nome = Sn <br>
 } <br><br>
 
-Sn = new Mulher('ana')<br>"
+Sn = new Mulher('ana')<br><br>
+
+
+<h2>Destrutor</h2><br>
+assim como construtor, existe um metodo que sera executado quando o objeto é destruido e termina sua execuçao<br><br>
+
+function __destruct(){<br>
+    echo o objeto foi destruido, tinha o nome Sthis->nome } <br><br>
+    
+    unset(Sn)<br>"
 ?>
