@@ -66,5 +66,9 @@ function __destruct(){<br>
 é possivel herdar prorpiedades e metodos de outras classes<br><br>
 
 class Automovel extends Veiculo{} <br>
-todas as prorpiedades e metodos que existem em veiculo, tambem existira em automovel"
+todas as prorpiedades e metodos que existem em veiculo, tambem existira em automovel<br>
+
+<h2>Sobreposiçao de metodos herdados</h2><br>
+podemos ter uma classe mae e alterar o codigo da classe filho<br><br>
+basta usar o mesmo nome do metodo da classe mae, e entao alterar o codigo da classe filho"
 ?>
