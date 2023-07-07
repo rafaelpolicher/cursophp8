@@ -70,5 +70,11 @@ todas as prorpiedades e metodos que existem em veiculo, tambem existira em autom
 
 <h2>Sobreposiçao de metodos herdados</h2><br>
 podemos ter uma classe mae e alterar o codigo da classe filho<br><br>
-basta usar o mesmo nome do metodo da classe mae, e entao alterar o codigo da classe filho"
+basta usar o mesmo nome do metodo da classe mae, e entao alterar o codigo da classe filho<br><br>
+
+<h2>impedir herança de classe ou metodo</h2><br>
+impedir que uma classe nao possa ser herdada por outra, ou impedir que um metodo seja sobreposto na classe filha<br><br>
+
+final class Classe{  <br>
+ final public function naoherdar() }<br><br>"
 ?>
