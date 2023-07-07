@@ -60,5 +60,11 @@ assim como construtor, existe um metodo que sera executado quando o objeto é de
 function __destruct(){<br>
     echo o objeto foi destruido, tinha o nome Sthis->nome } <br><br>
     
-    unset(Sn)<br>"
+    unset(Sn)<br><br>
+    
+<h2>hereditariedade</h2><br>
+é possivel herdar prorpiedades e metodos de outras classes<br><br>
+
+class Automovel extends Veiculo{} <br>
+todas as prorpiedades e metodos que existem em veiculo, tambem existira em automovel"
 ?>
