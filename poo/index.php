@@ -76,5 +76,19 @@ basta usar o mesmo nome do metodo da classe mae, e entao alterar o codigo da cla
 impedir que uma classe nao possa ser herdada por outra, ou impedir que um metodo seja sobreposto na classe filha<br><br>
 
 final class Classe{  <br>
- final public function naoherdar() }<br><br>"
+ final public function naoherdar() }<br><br>
+ 
+<h2>Classes e metodos abstratas</h2><br>
+metodos declarados, porem havera codigo apenas nos filhos<br><br>
+
+abstract class Pessoa{ <br>
+    absctract public function falar() } <br><br>
+    
+class Cliente extends Pessoa{ <br>
+    public function falar() codigo } <br><br>
+
+caso cliente nao haja todos os metodos de pessoa, gerara um fatal error<br>
+
+
+"
 ?>
