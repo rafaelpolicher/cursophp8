@@ -111,5 +111,12 @@ Class Matematica{ <br>
         
 Matematica::adicionar(20,10)<br><br>
 
+<h2>prorpiedades estaticas</h2><br>
+class Matematica{ <br>
+    public static Spi = 3,14 } <br><br>
+    
+echo Matematica::Spi<br><br>
+
+
 "
 ?>
