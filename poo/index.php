@@ -99,5 +99,17 @@ class calculadora{ <br>
     use funcoes matemaricas} <br><br>
     
 Scalc = new Calculadora(): <br>
-Scalc->somar(10,20)<br><br>"
+Scalc->somar(10,20)<br><br>
+
+
+<h2>metodos estaticos</h2><br>
+nao é necessario instanciar uma nova classe para acessar um metodo<br><br>
+
+Class Matematica{ <br>
+    public static function adicionar(Sa, Sb){<br>
+        return Sa + Sb } } <br><br>
+        
+Matematica::adicionar(20,10)<br><br>
+
+"
 ?>
