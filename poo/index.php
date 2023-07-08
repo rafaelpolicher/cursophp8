@@ -90,5 +90,14 @@ class Cliente extends Pessoa{ <br>
 caso cliente nao haja todos os metodos de pessoa, gerara um fatal error<br>
 
 
-"
+<h2>traits</h2><br>
+trait funçoes_matematicas{ <br>
+    public function somar(Sa, Sb){ <br>
+        return Sa + Sb } } <br><br>
+        
+class calculadora{ <br>
+    use funcoes matemaricas} <br><br>
+    
+Scalc = new Calculadora(): <br>
+Scalc->somar(10,20)<br><br>"
 ?>
