@@ -118,5 +118,15 @@ class Matematica{ <br>
 echo Matematica::Spi<br><br>
 
 
-"
+<h2>namespace</h2><br>
+seve para organizar as classes permitindo agrupa-las<br>
+dentro do mesmo projeto, existir classes com o mesmo nome em namespaces diferentes para caso use varios progamadores no mesmo projeto, pode ser que que hajam classes com o mesmo nome<br><br>
+
+namespace classes_principais<br><br>
+
+todas as classes criadas dentro desse arquivo pertencerao a este arquivo <br><br>
+
+precisa importar o aquivo require<br>
+use classes_principais\Matematica
+Smatematica = new Matematica()";
 ?>
