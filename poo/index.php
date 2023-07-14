@@ -128,5 +128,14 @@ todas as classes criadas dentro desse arquivo pertencerao a este arquivo <br><br
 
 precisa importar o aquivo require<br>
 use classes_principais\Matematica
-Smatematica = new Matematica()";
+Smatematica = new Matematica()<br><br>
+
+<h2>Declaraçao stricted types</h2><br>
+
+PHP é conhecida por ser fracacamente tipada, porem com a evoluçao do php é possivel definir o tipo de metodos e prorpiedades<br><br>
+
+function apresentar(String Svariavel){ echo Svariavel }<br><br>
+
+declare(strict_types = 1) faz com que a definiçao de tipo seja obrigatoria <br><br>
+";
 ?>
